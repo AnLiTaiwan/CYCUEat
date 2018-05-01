@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">netMedia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_see_eat_what">SeeEatWhat</string>
+    <string name="title_activity_see_eat_choose">SeeEatChoose</string>
+    <string name="title_activity_find_eat_what">FindEatWhat</string>
+    <string name="title_activity_user_record">UserRecord</string>
+    <string name="title_activity_user_define">UserDefine</string>
+    <string name="title_activity_user_add_defune">UserAddDefune</string>
+    <string name="title_activity_user_add_define">UserAddDefine</string>
+    <string name="title_activity_user_define_add">UserDefineAdd</string>
+    <string name="title_activity_user_define_list">UserDefineList</string>
+
+</resources>

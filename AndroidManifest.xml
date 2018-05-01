@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.threecountryeat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cycueat.WelcomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cycueat.SeeEatWhatChoose"
+            android:label="@string/title_activity_see_eat_what" >
+        </activity>
+        <activity
+            android:name="com.example.cycueat.SeeEatChoose"
+            android:label="@string/title_activity_see_eat_choose" >
+        </activity>
+        <activity
+            android:name="com.example.cycueat.FindEatWhat"
+            android:label="@string/title_activity_find_eat_what" >
+        </activity>
+        <activity
+            android:name="com.example.cycueat.UserRecord"
+            android:label="@string/title_activity_user_record" >
+        </activity>
+        <activity
+            android:name=".UserDefine"
+            android:label="@string/title_activity_user_define" >
+        </activity>
+        <activity
+            android:name=".UserAddDefune"
+            android:label="@string/title_activity_user_add_defune" >
+        </activity>
+        <activity
+            android:name="com.example.cycueat.UserAddDefine"
+            android:label="@string/title_activity_user_add_define" >
+        </activity>
+        <activity
+            android:name="com.example.cycueat.UserDefineAdd"
+            android:label="@string/title_activity_user_define_add" >
+        </activity>
+        <activity
+            android:name="com.example.cycueat.UserDefineList"
+            android:label="@string/title_activity_user_define_list" >
+        </activity>
+    </application>
+
+</manifest>

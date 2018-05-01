@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cycueat.SeeEatChoose" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="勾選你的選擇："
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/food1boss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---主食---"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="25dp" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/chB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="飯"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="麵"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chB3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="冬粉"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/chB4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水餃"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chB5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="湯餃"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chB6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粥"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="---其他---"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="25dp" />
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/chB7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="湯"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chB8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="飲料"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chB9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="小點心"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="( 如果沒有選擇 將從主食與其他各選一 )"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/findEatBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="尋找食物" />
+
+</LinearLayout>
